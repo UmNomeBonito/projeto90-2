@@ -1,0 +1,25 @@
+#cavalo {
+background: rgb(61, 47, 255);
+}
+
+#div_de_nome1, #div_de_nome2
+{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#output 
+            {
+                background: white;
+                border-radius: 10px;
+                border-top: 10px solid #AA4465;
+                padding: 10px;
+                float: none;
+                text-align: left;
+            }
+
+#bode {
+background: cover;
+}

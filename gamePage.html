@@ -1,0 +1,36 @@
+<html>
+<head>
+     <title>gamepage</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+<body background="Albert_Einstein_Head.jpg" id="bode">
+
+<h4 id="player1_name" style="color: black;"></h4> <span id="player1_score">5</span>
+<br>
+<h4 id="player2_name" style="color: black;"></h4> <span id="player2_score">5</span>
+
+<div class="container">
+    <center>
+        <h2 style="color: rgb(0, 24, 238);">Quiz de matematica</h2>
+        <h3 id="questonador"></h3>
+        <br>
+        <h3 id="vez_de_responder"></h3>
+        <div id="output"></div>
+
+        <h2>Numero 1</h2>
+        <input class="placeholder" id="numero1">
+        <br>
+        <h2>Numero 2</h2>
+        <input class="placeholder" id="numero2">
+        <br><br>
+        <button onclick="send()" class="btn btn-success">enviar</button>
+        <script src="gamain.js"></script>
+</div>
+</body>
+</html>
